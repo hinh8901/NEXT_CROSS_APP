@@ -1,3 +1,4 @@
+import { inter } from "./fonts";
 import "./globals.css"
 import { Providers } from "./providers"
 
@@ -9,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased`}
+        className={`${inter.className} antialiased`}
       >
         <Providers>{children}</Providers>
       </body>

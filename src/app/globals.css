@@ -5,12 +5,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --border: rhsl(240 5.26% 26.08% / 1)ed;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #18181B;
     --foreground: #ededed;
+    --border: hsl(240 5.26% 26.08% / 1);
   }
 }
 
