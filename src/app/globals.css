@@ -5,7 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --border: rhsl(240 5.26% 26.08% / 1)ed;
+  --border: rhsl(240 5.26% 26.08% / 1);
 }
 
 @media (prefers-color-scheme: dark) {
